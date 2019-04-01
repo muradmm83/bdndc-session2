@@ -5,7 +5,7 @@
 const be = require('blockexplorer');
 
 
-const getBlockHah = function (index) {
+const getBlockHash = function (index) {
     // use blockexplorer to get block hash
 }
 
@@ -17,10 +17,12 @@ const getTransactions = function (...tx) {
     // use blockexplorer to get tranasctions
 }
 
-(function () {
+const main = async function() {
     // run your code here, consider this as the main method in C#, Java
 
     let blockIndex = 2600; // you could use any index you like
 
     // call your functions here (getBlockHash, getBlock, & getTransactions)
-}());
+};
+
+main();
