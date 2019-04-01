@@ -1,0 +1,14 @@
+{
+  "name": "block-explorer-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "muradmm83",
+  "license": "ISC",
+  "dependencies": {
+    "blockexplorer": "^1.0.1"
+  }
+}
